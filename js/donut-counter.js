@@ -11,10 +11,13 @@ var guests = parseInt(prompt("How many people are you?", ""))
 var donuts = parseInt(prompt("How many donuts do you collectively have?", ""))
 
 if (guests > donuts) {
-  alert("O NOES!!! U NEEDS MOAR DONATS!!!!")
+  alert("There are "+ donuts +" donuts and "+ guests +" guests.\n\nO NOES!!! U NEEDS MOAR DONATS!!!!")
 }
-else if (guests <= donuts) {
-  alert("O YAYS!!! U GOTS SOOOO MANY DONATS!!!!")
+else if (guests = donuts) {
+  alert("There are "+ donuts +" donuts and "+ guests +" guests.\n\nphew! u has enough donats!")
+}
+else if (guests < donuts) {
+  alert("There are "+ donuts +" donuts and "+ guests +" guests.\n\nO YAYS!!! U GOTS SOOOO MANY DONATS!!!!")
 }
 else {
   alert("People who don't like donuts should be buried alive")
